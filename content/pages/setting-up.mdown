@@ -4,7 +4,7 @@ Summary: This is an article about how I set up the Nesta CMS on Ubuntu using Cap
 
 # Setting up Nesta CMS with Capistrano and nginx
 
-I already had [Passenger and nginx](http://modrails.com/documentation/Users%20guide%20Nginx.html) set up on my [Linode](http://www.linode.com/). I'll assume that git is already installed and that it 
+I already had [Passenger and nginx](http://modrails.com/documentation/Users%20guide%20Nginx.html) set up on my [Linode](http://www.linode.com/). I'll assume that git is already installed and that the user is familiarized with its use.
 
 Follow the very simple instructions [here](http://nestacms.com/docs/quick-start) to set up a local installation of Nesta. Create a new remote git repository and push over your new nesta code.   
 

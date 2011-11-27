@@ -1,20 +1,27 @@
-Date: 26 November 2011
+Date: 27 November 2011
 Categories: setting-up-nesta
-Summary: This is an article about how I set up the Nesta CMS on Ubuntu using Capistrano and Nginx
+Summary: This is an article about how I set up the Nesta CMS on Ubuntu using Capistrano and nginx. This is mainly for my own future reference but maybe someone will find it useful.
 
-# Setting up Nesta with Capistrano and Nginx
+# Setting up Nesta CMS with Capistrano and nginx
 
-I used the config/deploy.rb file I found [here](http://travisonrails.com/2010/05/25/deploy-sinatra-application-with-capistrano) which looks like this:
+I already had [Passenger and nginx](http://modrails.com/documentation/Users%20guide%20Nginx.html) set up on my [Linode](http://www.linode.com/). I'll assume that git is already installed and that it 
 
-	set :domain, "yourdomain.com"
-	set :application, "app_name"
-	set :deploy_to, "/var/www/apps/#{domain}"
+Follow the very simple instructions [here](http://nestacms.com/docs/quick-start) to set up a local installation of Nesta. Create a new remote git repository and push over your new nesta code.   
 
-	set :user, "your_deploy_user"
+In the top of your new nesta directory, install the capistrano gem, run **capify** and manually edit your deploy.rb. I used the config/deploy.rb file I found [here](http://travisonrails.com/2010/05/25/deploy-sinatra-application-with-capistrano) as a reference. Mine looks like this:
+
+	default_run_options[:pty] = true
+	ssh_options[:forward_agent] = true
+
+	set :domain, "scott-martin.com"
+	set :application, "scott-martin.com"
+	set :deploy_to, "/var/www/scott-martin.com"
+
+	set :user, "scott"
 	set :use_sudo, false
 
-	set :scm, :git
-	set :repository,  "git@github.com:you/application.git"
+	set :scm, "git"
+	set :repository,  "git@github.com:smm/scott-martin.com.git"
 	set :branch, 'master'
 	set :git_shallow_clone, 1
 
@@ -50,3 +57,22 @@ I used the config/deploy.rb file I found [here](http://travisonrails.com/2010/05
 	    end
 	  end
 	end
+
+
+At this point I had to make sure my ssh public keys on all of my machines could authenticate to one another. 
+
+Now just run **cap deploy** and hopefully the script will pull your nesta code from your git repository and place it in the correct location on your production server.
+verall
+I use **sites-available** and **sites-enabled** to manage nginx configuration for various sites hosted on this box. Here is my sites-availble file:
+
+	server {
+	        listen 80;
+	        server_name     www.scott-martin.com scott-martin.com;
+	        access_log      /var/log/nginx/scott-martin.com.access.log;
+	        error_log       /var/log/nginx/scott-martin.com.error.log;
+	        root            /var/www/scott-martin.com/current/public;
+	        passenger_enabled on;
+
+	}
+	
+The ease with which this post was written and deployed has already justified the slight learning curve involved in getting everything set up. I look forward to using and customizing Nesta in the future.	

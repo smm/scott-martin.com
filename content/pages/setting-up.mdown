@@ -65,8 +65,8 @@ In the top of your new nesta directory, install the capistrano gem, run **capify
 At this point I had to make sure my ssh public keys on all of my machines could authenticate to one another. 
 
 Now just run **cap deploy** and hopefully the script will pull your nesta code from your git repository and place it in the correct location on your production server.
-verall
-I use **sites-available** and **sites-enabled** to manage nginx configuration for various sites hosted on this box. Here is my sites-availble file:
+
+I use **sites-available** and **sites-enabled** to manage nginx configuration for various sites hosted on this box. Here is my sites-available file:
 
 	server {
 	        listen 80;

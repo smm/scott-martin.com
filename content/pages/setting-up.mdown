@@ -2,7 +2,6 @@ Date: 27 November 2011
 Categories: setting-up-nesta
 Summary: This is an article about how I set up the Nesta CMS on Ubuntu using Capistrano and nginx. This is mainly for my own future reference but maybe someone will find it useful.
 
-<img src="/attachments/setting-up-nesta.png" alt="Nesta Setup"/>
 
 # Setting up Nesta CMS with Capistrano and nginx
 

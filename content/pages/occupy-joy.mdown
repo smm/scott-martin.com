@@ -1,0 +1,9 @@
+Date: 9 December 2011
+Categories: Photo
+Summary: This is an article about how I set up the Nesta CMS on Ubuntu using Capistrano and nginx. This is mainly for my own future reference but maybe someone will find it useful.
+
+
+# Joy to the World
+
+[<img src="/attachments/occupy_joy.jpg" alt="Occupy Joy"/>](http://news.ycombinator.com)
+

@@ -15,7 +15,7 @@ Summary:Link Dump
  
 [Free Edward Tufte journal scans - yes, please](http://www.edwardtufte.com/tufte/dapp/)
  
-[Dan Nguyen is writing a very interesting (free) Ruby book](http://ruby.bastardsbook.com/chapters/sp500-code/)
+[Dan Nguyen is writing a very interesting (free) Ruby book](http://ruby.bastardsbook.com/)
  
 [Learn Knockout.js](http://learn.knockoutjs.com/)
 
@@ -36,6 +36,6 @@ Summary:Link Dump
  
 [Free Edward Tufte journal scans - yes, please](http://www.edwardtufte.com/tufte/dapp/)
  
-[Dan Nguyen is writing a very interesting (free) Ruby book](http://ruby.bastardsbook.com/chapters/sp500-code/)
+[Dan Nguyen is writing a very interesting (free) Ruby book](http://ruby.bastardsbook.com/)
  
 [Learn Knockout.js](http://learn.knockoutjs.com/)

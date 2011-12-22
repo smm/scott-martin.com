@@ -1,0 +1,41 @@
+Date: 22 December 2011
+Categories: linkdump
+Summary:Link Dump
+[Kickstarter feature on The Verge](http://www.theverge.com/2011/12/20/2644358/kickstarter-success-product-development-revolution)
+ 
+[20 Notable uses of CSS](http://www.netmagazine.com/features/2011-review-20-css-sites-rocked)
+ 
+[20 Notale uses of Javascript](http://www.netmagazine.com/features/2011-review-20-sites-pushed-javascript-limit)
+ 
+[GPL Schematic Capture tool KiCAD tutorial](http://teholabs.com/knowledge/kicad.html)
+ 
+[Open Hardware FM Synthesizer](https://sites.google.com/site/preenfm/)
+ 
+[Cypherpunk not Dead](http://vinay.howtolivewiki.com/blog/other/i-went-to-the-same-school-as-julian-assange-but-we-learned-different-lessons-2936)
+ 
+[Free Edward Tufte journal scans - yes, please](http://www.edwardtufte.com/tufte/dapp/)
+ 
+[Dan Nguyen is writing a very interesting (free) Ruby book](http://ruby.bastardsbook.com/chapters/sp500-code/)
+ 
+[Learn Knockout.js](http://learn.knockoutjs.com/)
+
+
+# Link Dump
+ 
+[Kickstarter feature on The Verge](http://www.theverge.com/2011/12/20/2644358/kickstarter-success-product-development-revolution)
+ 
+[20 Notable uses of CSS](http://www.netmagazine.com/features/2011-review-20-css-sites-rocked)
+ 
+[20 Notale uses of Javascript](http://www.netmagazine.com/features/2011-review-20-sites-pushed-javascript-limit)
+ 
+[GPL Schematic Capture tool KiCAD tutorial](http://teholabs.com/knowledge/kicad.html)
+ 
+[Open Hardware FM Synthesizer](https://sites.google.com/site/preenfm/)
+ 
+[Cypherpunk not Dead](http://vinay.howtolivewiki.com/blog/other/i-went-to-the-same-school-as-julian-assange-but-we-learned-different-lessons-2936)
+ 
+[Free Edward Tufte journal scans - yes, please](http://www.edwardtufte.com/tufte/dapp/)
+ 
+[Dan Nguyen is writing a very interesting (free) Ruby book](http://ruby.bastardsbook.com/chapters/sp500-code/)
+ 
+[Learn Knockout.js](http://learn.knockoutjs.com/)
